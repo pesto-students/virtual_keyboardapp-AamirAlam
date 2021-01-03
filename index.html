@@ -8,10 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <title>keyboard</title>
-    <script src="./index.js"></script>
 </head>
 <body>
     <header>
@@ -19,72 +18,72 @@
     </header>
     <div class="keyboard">
         <div class="calculations">
-            <textarea name="results" id="" cols="160" rows="3" >Type here</textarea>
+            <textarea name="results" class="input-area" id="" cols="160" rows="3" >Type here</textarea>
         </div>
         <div class="keyboard-layout">
             <div class="wrapper">
 
-                    <button class="button input" value=".">.</button>
-                    <button class="button input" value="1">1</button>
-                    <button class="button input" >2</button>
-                    <button class="button input">3</button>
-                    <button class="button ">4</button>
-                    <button class="button ">5</button>
-                    <button class="button ">6</button>
-                    <button class="button ">7</button>
-                    <button class="button ">8</button>
-                    <button class="button ">9</button>
-                    <button class="button ">0</button>
-                    <button class="button ">-</button>
-                    <button class="button ">=</button>
-                    <button class="button "><-backspace</button>
+                    <button class="button input-key"  >.</button>
+                    <button class="button input-key"  >1</button>
+                    <button class="button input-key"  >2</button>
+                    <button class="button input-key" >3</button>
+                    <button class="button input-key" >4</button>
+                    <button class="button input-key" >5</button>
+                    <button class="button input-key" >6</button>
+                    <button class="button input-key" >7</button>
+                    <button class="button input-key" >8</button>
+                    <button class="button input-key" >9</button>
+                    <button class="button input-key" >0</button>
+                    <button class="button input-key" >-</button>
+                    <button class="button input-key" >=</button>
+                    <button class="button action-key backspace"><-backspace</button>
 
-                    <button class="button ">tab</button>
-                    <button class="button ">q</button>
-                    <button class="button ">w</button>
-                    <button class="button ">e</button>
-                    <button class="button ">r</button>
-                    <button class="button ">t</button>
-                    <button class="button ">y</button>
-                    <button class="button ">u</button>
-                    <button class="button ">i</button>
-                    <button class="button ">o</button>
-                    <button class="button ">p</button>
-                    <button class="button ">[</button>
-                    <button class="button ">]</button>
-                    <button class="button ">\</button>
+                    <button class="button action-key tab">tab</button>
+                    <button class="button input-key" >q</button>
+                    <button class="button input-key" >w</button>
+                    <button class="button input-key" >e</button>
+                    <button class="button input-key" >r</button>
+                    <button class="button input-key" >t</button>
+                    <button class="button input-key" >y</button>
+                    <button class="button input-key" >u</button>
+                    <button class="button input-key" >i</button>
+                    <button class="button input-key" >o</button>
+                    <button class="button input-key" >p</button>
+                    <button class="button input-key" >[</button>
+                    <button class="button input-key" >]</button>
+                    <button class="button input-key" >\</button>
 
-                    <button class="button ">caps</button>
-                    <button class="button ">a</button>
-                    <button class="button ">s</button>
-                    <button class="button ">d</button>
-                    <button class="button ">f</button>
-                    <button class="button ">g</button>
-                    <button class="button ">h</button>
-                    <button class="button ">j</button>
-                    <button class="button ">k</button>
-                    <button class="button ">l</button>
-                    <button class="button ">;</button>
-                    <button class="button ">'</button>
-                    <button class="button ">< enter</button>
+                    <button class="button action-key caps">caps</button>
+                    <button class="button input-key" >a</button>
+                    <button class="button input-key" >s</button>
+                    <button class="button input-key" >d</button>
+                    <button class="button input-key" >f</button>
+                    <button class="button input-key" >g</button>
+                    <button class="button input-key" >h</button>
+                    <button class="button input-key" >j</button>
+                    <button class="button input-key" >k</button>
+                    <button class="button input-key" >l</button>
+                    <button class="button input-key" >;</button>
+                    <button class="button input-key" ">'</button>
+                    <button class="button action-key enter">< enter</button>
 
-                    <button class="button ">shift</button>
-                    <button class="button ">z</button>
-                    <button class="button ">x</button>
-                    <button class="button ">c</button>
-                    <button class="button ">v</button>
-                    <button class="button ">b</button>
-                    <button class="button ">n</button>
-                    <button class="button ">m</button>
-                    <button class="button "> , </button>
-                    <button class="button "> . </button>
-                    <button class="button ">/</button>
-                    <button class="button ">shift</button>
+                    <button class="button action-key shift">shift</button>
+                    <button class="button input-key" >z</button>
+                    <button class="button input-key" >x</button>
+                    <button class="button input-key" >c</button>
+                    <button class="button input-key" >v</button>
+                    <button class="button input-key" >b</button>
+                    <button class="button input-key" >n</button>
+                    <button class="button input-key" >m</button>
+                    <button class="button input-key" > , </button>
+                    <button class="button input-key" > . </button>
+                    <button class="button input-key" >/</button>
+                    <button class="button action-key shift">shift</button>
                     <button hidden></button>
 
-                    <button class="button ">.com</button>
-                    <button class="button ">@</button>
-                    <button class="button ">_____space____</button>
+                    <button class="button input-key" om">.com</button>
+                    <button class="button input-key" >@</button>
+                    <button class="button input-key" >_____space____</button>
                 
             </div>
 
@@ -93,5 +92,6 @@
         
 
     </div>
+    <script src="./js/index.js"></script>
 </body>
 </html>
